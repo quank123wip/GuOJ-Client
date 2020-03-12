@@ -27,7 +27,7 @@ function createWindow() {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadURL('https://uoj.ac')
+  mainWindow.loadURL('https://guoj.icu')
 
 
   mainWindow.webContents.session.on('will-download', (event, item, webContents) => {
