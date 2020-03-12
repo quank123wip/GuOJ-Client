@@ -1,0 +1,22 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.community.guojclient
+mac:
+  category: public.app-category.social-networking
+  darkModeSupport: true
+dmg:
+  iconSize: 160
+  contents:
+    - x: 180
+      'y': 170
+    - x: 480
+      'y': 170
+      type: link
+      path: /Applications
+linux:
+  target:
+    - AppImage
+    - deb
+  category: Network;
+electronVersion: 7.1.14
